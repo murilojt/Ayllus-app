@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Nutri App",
+    "slug": "nutri-app",
+    "scheme": "nutriapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.suaempresa.nutriapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.suaempresa.nutriapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "name": "Minha Dieta",
+      "shortName": "Minha Dieta",
+      "themeColor": "#2F7A4F",
+      "backgroundColor": "#F4F8F5",
+      "display": "standalone"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#2F7A4F"
+        }
+      ]
+    ]
+  }
+}
